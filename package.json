@@ -1,0 +1,16 @@
+{
+  "name": "newman-cronjob",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "newman": "^5.2.3",
+    "newman-reporter-csv": "^1.2.0"
+  }
+}

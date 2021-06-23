@@ -1,0 +1,92 @@
+{
+	"info": {
+		"_postman_id": "b783325a-1a07-473b-9749-8ff9f0d595fb",
+		"name": "1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://publicservices.gst.gov.in/publicservices/auth/api/search/tp/busplaces",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Opera\";v=\"77\", \"Chromium\";v=\"91\", \";Not A Brand\";v=\"99\""
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain"
+					},
+					{
+						"key": "at",
+						"value": "91b3736ae1da44eeab3dd7d45d5dcbc0"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36 OPR/77.0.4054.90"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json;charset=UTF-8"
+					},
+					{
+						"key": "Origin",
+						"value": "https://services.gst.gov.in"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Referer",
+						"value": "https://services.gst.gov.in/"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"gstin\":\"{{gstno}}\"}"
+				},
+				"url": {
+					"raw": "https://publicservices.gst.gov.in/publicservices/auth/api/search/tp/busplaces",
+					"protocol": "https",
+					"host": [
+						"publicservices",
+						"gst",
+						"gov",
+						"in"
+					],
+					"path": [
+						"publicservices",
+						"auth",
+						"api",
+						"search",
+						"tp",
+						"busplaces"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
