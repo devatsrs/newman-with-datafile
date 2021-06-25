@@ -24,7 +24,7 @@
 					},
 					{
 						"key": "at",
-						"value": "91b3736ae1da44eeab3dd7d45d5dcbc0"
+						"value": "{{at}}"
 					},
 					{
 						"key": "Accept-Language",

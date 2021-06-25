@@ -14,16 +14,25 @@ and csv datafile for data dynamic data.
     * node
     * postman
 
-## Preinstallation
-
-    * Export collection json file in project root folder.
-    * Replace gstno from your list in datafiletest.csv in project folder.
-    * Run following commands.
-
 ## Installation
 
     npm install
 
-## command to run
+## Before Run
 
-    ./node_modules/.bin/newman run {postman_collection}.json -d {yourdatafile}.csv -r csv --reporter-csv-includeBody
+    * Copy header key 'at' from developer option from https://services.gst.gov.in/ after login.
+    * Replace gstno from your list in datafiletest.csv in project folder.
+    * Run following commands.
+
+## command to run - Single Mode
+
+    npm start [filename] [at]
+
+    Example:
+    npm start datafiletest.csv b57e47186f9548ae913bf1a117bccb94
+
+## command to run - Batch Mode
+
+    - Update bash.sh for csv files and 'at'
+
+    bash.sh
